@@ -1,0 +1,29 @@
+query accessToken { # 获取access_token
+  oa(options: {
+    name: "accessToken"
+  }) 
+}
+mutation userInfo($data: Any) { # 获取访问用户身份
+  oa(options: {
+    name: "userInfo"
+    data: $data
+  }) 
+}
+mutation userList($data: Any) { # 获取部门列表
+  oa(options: {
+    name: "userList"
+    data: $data
+  }) 
+}
+mutation departmentList($data: Any) { # 获取部门列表
+  oa(options: {
+    name: "departmentList"
+    data: $data
+  }) 
+}
+mutation user($data: Any) { # 获取访问用户的详细信息
+  oa(options: {
+    name: "user"
+    data: $data
+  }) 
+}

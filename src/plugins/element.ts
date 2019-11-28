@@ -1,0 +1,165 @@
+import Vue from "vue";
+import {
+  Row,
+  Col,
+  Button,
+  Select,
+  Option,
+  Tabs,
+  TabPane,
+  Input,
+  Card,
+  Container,
+  Aside,
+  Main,
+  Menu,
+  MenuItem,
+  MenuItemGroup,
+  Submenu,
+  Loading,
+  Table,
+  TableColumn,
+  Pagination,
+  Dialog,
+  Form,
+  FormItem,
+  Radio,
+  RadioButton,
+  RadioGroup,
+  DatePicker,
+  Tree,
+  Dropdown,
+  DropdownMenu,
+  DropdownItem,
+  Slider
+} from "element-ui";
+
+require("element-ui/lib/theme-chalk/base.css")
+
+{
+  require("element-ui/lib/theme-chalk/row.css")
+  Vue.use(Row);
+}
+{
+  require("element-ui/lib/theme-chalk/col.css")
+  Vue.use(Col);
+}
+{
+  require("element-ui/lib/theme-chalk/button.css");
+  Vue.use(Button);
+}
+{
+  require("element-ui/lib/theme-chalk/select.css");
+  Vue.use(Select);
+}
+{
+  require("element-ui/lib/theme-chalk/option.css");
+  Vue.use(Option);
+}
+{
+  require("element-ui/lib/theme-chalk/tabs.css");
+  Vue.use(Tabs);
+}
+{
+  require("element-ui/lib/theme-chalk/tab-pane.css");
+  Vue.use(TabPane);
+}
+{
+  require("element-ui/lib/theme-chalk/input.css");
+  Vue.use(Input);
+}
+{
+  require("element-ui/lib/theme-chalk/card.css");
+  Vue.use(Card);
+}
+{
+  require("element-ui/lib/theme-chalk/notification.css");
+}
+{
+  require("element-ui/lib/theme-chalk/container.css");
+  Vue.use(Container);
+}
+{
+  require("element-ui/lib/theme-chalk/aside.css");
+  Vue.use(Aside);
+}
+{
+  require("element-ui/lib/theme-chalk/main.css");
+  Vue.use(Main);
+}
+{
+  require("element-ui/lib/theme-chalk/menu.css");
+  Vue.use(Menu);
+}
+{
+  require("element-ui/lib/theme-chalk/menu-item-group.css");
+  Vue.use(MenuItemGroup);
+}
+{
+  require("element-ui/lib/theme-chalk/menu-item.css");
+  Vue.use(MenuItem);
+}
+{
+  require("element-ui/lib/theme-chalk/submenu.css");
+  Vue.use(Submenu);
+}
+{
+  require("element-ui/lib/theme-chalk/loading.css");
+  Vue.use(Loading);
+}
+{
+  require("element-ui/lib/theme-chalk/table.css");
+  Vue.use(Table);
+}
+{
+  require("element-ui/lib/theme-chalk/table-column.css");
+  Vue.use(TableColumn);
+}
+{
+  require("element-ui/lib/theme-chalk/pagination.css");
+  Vue.use(Pagination);
+}
+{
+  require("element-ui/lib/theme-chalk/dialog.css");
+  Vue.use(Dialog);
+}
+{
+  require("element-ui/lib/theme-chalk/form.css");
+  Vue.use(Form);
+}
+{
+  require("element-ui/lib/theme-chalk/form-item.css");
+  Vue.use(FormItem);
+}
+{
+  require("element-ui/lib/theme-chalk/radio.css");
+  Vue.use(Radio);
+}
+{
+  require("element-ui/lib/theme-chalk/radio-group.css");
+  Vue.use(RadioGroup);
+}
+{
+  require("element-ui/lib/theme-chalk/date-picker.css");
+  Vue.use(DatePicker);
+}
+{
+  require("element-ui/lib/theme-chalk/tree.css");
+  Vue.use(Tree);
+}
+{
+  require("element-ui/lib/theme-chalk/radio-button.css");
+  Vue.use(RadioButton);
+}
+{
+  require("element-ui/lib/theme-chalk/dropdown.css");
+  require("element-ui/lib/theme-chalk/dropdown-menu.css");
+  require("element-ui/lib/theme-chalk/dropdown-item.css");
+  Vue.use(Dropdown);
+  Vue.use(DropdownMenu);
+  Vue.use(DropdownItem);
+}
+{
+  require("element-ui/lib/theme-chalk/slider.css");
+  Vue.use(Slider);
+}

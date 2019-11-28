@@ -1,0 +1,57 @@
+query AppInfos($version: String, $data: Any) {
+  get(options: {
+    name: "appInfos",
+    version: $version,
+    data: $data
+  }) 
+}
+
+mutation AdvChannels($version: String, $data: Any) {
+  post(options: {
+    name: "advChannels",
+    version: $version,
+    data: $data
+  })
+}
+
+mutation PayChannels($version: String, $data: Any) {
+   post(options: {
+    name: "payChannels",
+    version: $version,
+    data: $data
+  })
+}
+
+mutation PayWays($version: String, $data: Any) {
+   post(options: {
+    name: "payWays",
+    version: $version,
+    data: $data
+  })
+}
+
+mutation Products($version: String, $data: Any) {
+  post(options: {
+    name: "products",
+    version: $version,
+    data: $data
+  })
+}
+
+mutation Verify($version: String, $data: Any) {
+  post(options: {
+    name: "verify",
+    version: $version,
+    data: $data
+  })
+}
+
+mutation Repair($version: String, $data: Any) {
+  post(options: {
+    name: "repair",
+    version: $version,
+    data: $data
+  })
+}
+
+
