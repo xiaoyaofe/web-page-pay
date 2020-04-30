@@ -19,7 +19,7 @@
     "element-ui": "^2.4.11",
     "graphql-type-json": "^0.2.1",
     "iview": "^3.0.1",
-    "jquery": "^1.11.0",
+    "jquery": "^3.5.0",
     "lowdb": "^1.0.0",
     "md5": "^2.2.1",
     "mkdirp": "^0.5.1",
